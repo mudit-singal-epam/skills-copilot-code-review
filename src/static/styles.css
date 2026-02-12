@@ -218,6 +218,11 @@ section h3 {
   overflow: hidden;
 }
 
+.capacity-bar-fill {
+  height: 100%;
+  display: block;
+  border-radius: inherit;
+}
 .capacity-text {
   display: flex;
   justify-content: space-between;
@@ -663,4 +668,12 @@ footer {
 
 #logout-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.announcement-banner {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
 }
